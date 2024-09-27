@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            COLOR PICKER
+        </h1>
+    </header>
+    <div class="container">
+        <div class="box-container">
+            <div class="box" data-color="red" style="background-color: red;">Red</div>
+            <div class="box" data-color="blue" style="background-color: blue;">Blue</div>
+            <div class="box" data-color="yellow" style="background-color: yellow;">Yellow</div>
+            <div class="box" data-color="pink" style="background-color: pink;">Pink</div>
+            <div class="box" data-color="purple" style="background-color: purple;">Purple</div>
+            <div class="box" data-color="orange" style="background-color: orange;">Orange</div>
+        </div>
+        <br>
+        <div class="hex-selector">
+            <label for="colorInput">SELECT HEX or RGB:</label>
+            <input type="color" id="colorInput" class="input-selector">
+        </div>
+        <br>
+        <div class="reset-background">
+            <button id="resetBtn" class="resetBtn">Reset color</button>        </div>
+    </div>
+</body>
+</html>

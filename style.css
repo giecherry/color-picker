@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    font-size: 30px;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px #423e3e;
+}
+
+.hex-selector{
+    font-weight: bold;
+}
+.input-selector{
+    width: 5rem;
+    box-shadow: 2px 2px 2px #423e3e;
+}
+.resetBtn{
+    padding: 0.7rem;
+    background-color: #b2c5ff;
+    border-radius: 15px;
+    border: solid 2px #162142;
+    box-shadow: 2px 2px 2px #423e3e;
+}
